@@ -3,7 +3,7 @@
 #include <utility/logging.h>
 #include <PubSubClient.h>
 
-byte mac[]    = {  0xDE, 0xED, 0xBA, 0xFE, 0xFE, 0xED };
+byte mac[]    = {  0xDE, 0xED, 0xBA, 0xFE, 0xF1, 0x32 };
 
 void callback(char* topic, byte* payload, unsigned int length) {
   Serial.println(topic);
